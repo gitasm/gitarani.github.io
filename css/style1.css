@@ -1,0 +1,94 @@
+.navbar-brand {
+  color: rgb(220, 177, 59) !important;
+  font-family: "Pushster", cursive;
+  font-size: 26px;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid rgb(220, 177, 59);
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+h1,
+h2 {
+  color: rgb(220, 177, 59);
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  color: rgb(86, 188, 163);
+  font-family: "Lato", sans-serif;
+}
+
+.card-text {
+  color: #0b0e29;
+  font-family: "Lato", sans-serif;
+}
+
+.nav-link {
+  color: rgb(86, 188, 163) !important;
+}
+
+.navbar {
+  background-color: rgba(11, 14, 41, 1);
+}
+
+.jumbotron {
+  background-color: rgba(44, 50, 90, 1);
+  padding-top: 3rem;
+
+  text-align: center;
+}
+
+#about {
+  background-color: rgb(49, 75, 120);
+}
+
+#skill {
+  background-color: #2494a2;
+}
+
+#projects {
+  background-color: #56bca3;
+}
+
+footer {
+  background-color: #0b0e29;
+  text-align: center;
+  font-weight: lighter;
+
+  padding-bottom: 50px;
+}
+
+footer p {
+  color: rgb(220, 177, 59);
+}
+
+.my-btn {
+  background-color: #56bca3;
+  border-style: none;
+  text-align: center;
+  color: #0b0e29;
+  font-weight: bold;
+}
+.my-btn:hover {
+  background-color: #0b0e29;
+  border-style: none;
+  text-align: center;
+  color: #2494a2;
+  font-weight: bold;
+}
